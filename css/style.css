@@ -1,0 +1,505 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 16px;
+}
+
+.main-header {
+    color: rgba(139, 126, 172, 1);
+    background-image: url(/img/yoga-image.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 908px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1240px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(142, 128, 169, 1);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.logo-text {
+    background: linear-gradient(89.65deg, #807DA4 -6.51%, #D2BFDD 108.91%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    font-weight: 500;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgba(249, 244, 249, 1);
+    width: 126px;
+    height: 48px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.site-navigation {
+    display: flex;
+    font-weight: 600;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.titles-title {
+    color: rgba(255, 255, 255, 1);
+    font-size: 256px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-align: center;
+    font-weight: normal;
+}
+
+.direction {
+    margin-top: 200px;
+}
+
+.title {
+    color: rgba(142, 128, 169, 1);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.titles-subtitle {
+    font-family: 'Caveat', cursive;
+    font-size: 45px;
+    font-weight: normal;
+    margin-left: 150px;
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.titles .arrow-text {
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(230, 92, 123, 1);
+}
+
+.titles .arrow {
+    width: 56px;
+    height: 48px;
+    background: #E65C7B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titles .arrow-block {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    gap: 20px;
+}
+
+.social-navigation-items {
+    display: flex;
+    gap: 10px;
+}
+
+.social-navigation {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-navigation>p {
+    font-weight: 500;
+}
+
+.direction-item-title {
+    font-weight: 700;
+    color: rgba(142, 128, 169, 1);
+}
+
+.direction-item-text {
+    color: rgba(142, 128, 169, 1);
+    font-size: 12px;
+}
+
+.direction-arrow-text {
+    color: rgba(230, 92, 123, 1);
+    font-size: 12px;
+}
+
+.direction-block {
+    padding: 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.one {
+    width: 350px;
+}
+
+.direction-arrow {
+    background: rgba(142, 128, 169, 1);
+    width: 45px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.direction-arrow-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.direction-items {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.direction-item {
+    box-shadow: 0px 4px 25px 0px rgba(142, 128, 169, 0.2);
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.subscription {
+    margin-top: 50px;
+}
+
+.subscription-month {
+    display: flex;
+    margin-top: 60px;
+    font-size: 12px;
+    color: rgba(230, 92, 123, 1);
+    justify-content: center;
+    gap: 40px;
+}
+
+.subscription-items {
+    margin-top: 40px;
+}
+
+.subscription-item-title {
+    color: rgba(142, 128, 169, 1);
+    font-size: 18px;
+}
+
+.subscription-item-text {
+    color: rgba(230, 92, 123, 1);
+    font-size: 12px;
+}
+
+.subscription-item-price {
+    color: rgba(142, 128, 169, 1);
+    font-size: 30px;
+}
+
+.order {
+    color: white;
+    background: rgba(142, 128, 169, 1);
+    font-size: 12px;
+    width: 220px;
+    align-self: center;
+    padding: 16px 40px;
+}
+
+.subscription-item {
+    box-shadow: 0px 4px 25px 0px rgba(142, 128, 169, 0.2);
+    width: 265px;
+    height: 290px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.subscription-items {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.subscription-item-bigger {
+    width: 300px;
+    height: 330px;
+}
+
+.subscription-item-title-bigger {
+    font-size: 30px;
+}
+
+.subscription-item-price-bigger {
+    font-size: 45px;
+}
+
+.team {
+    margin-top: 120px;
+}
+
+.description {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.description-info {
+    padding: 30px 30px 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 675px;
+    box-shadow: 0px 4px 25px 0px rgba(142, 128, 169, 0.2);
+}
+
+.description-text {
+    width: 560px;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(142, 128, 169, 1);
+}
+
+.description-name {
+    font-size: 18px;
+    color: rgba(142, 128, 169, 1);
+}
+
+.description-experience {
+    color: rgba(230, 92, 123, 1);
+}
+
+.team-arrows {
+    margin-top: 30px;
+}
+
+.team-arrow {
+    width: 45px;
+    height: 30px;
+}
+
+.team-left-arrow {
+    border: 1px solid rgba(142, 128, 169, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-right-arrow {
+    background: rgba(142, 128, 169, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-arrows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.galery {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1070px;
+}
+
+.galery-images {
+    border: 5px solid rgb(240, 235, 249);
+    padding: 30px 0px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+}
+
+.reviews {
+    margin-top: 90px;
+}
+
+.reviews-list {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.reviews-item {
+    width: 440px;
+    height: 315px;
+    box-shadow: 0px 4px 25px 0px rgba(142, 128, 169, 0.2);
+    padding: 30px 40px 30px 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.reviews-text {
+    font-size: 12px;
+    color: rgba(142, 128, 169, 1);
+    line-height: 20px;
+}
+
+.name {
+    font-size: 12px;
+    color: rgba(230, 92, 123, 0.7);
+}
+
+.data {
+    font-size: 10px;
+    color: rgba(142, 128, 169, 0.7);
+}
+
+.information {
+    display: flex;
+    gap: 13px;
+}
+
+.reviews-arrows {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.reviews-arrow {
+    width: 45px;
+    height: 30px;
+    background: rgba(142, 128, 169, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews-left-arrow img {
+    transform: rotate(180deg);
+}
+.registration{
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.registration-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #8E80A9; 
+}
+.registration-info{
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+    gap: 70px;
+    margin-top: 100px;
+}
+.footer-social-navigation{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+.info-text-left{
+    margin-left: 25px;
+}
+.info-text{
+    color: #8E80A9; 
+    font-size: 12px;
+}
+input{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background: none;
+    border-bottom: 1px solid rgba(142, 128, 169, 1);
+}
+.wirte{
+    display: flex;
+    flex-direction: column;
+}
+.fill{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.button{
+    background: rgba(230, 92, 123, 1);
+    margin-top: 60px;
+    width: 400px;
+    height: 56px;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+label{
+    color: rgba(142, 128, 169, 0.4);
+
+}
+.label-2{
+    margin-top: 50px;
+}
+footer{
+    background-image: url(/img/footer-yoga.jpg);
+    background-size: cover;
+    padding: 70px;
+    margin-top: 65px;
+}
+.main-footer{
+    background: rgba(131, 115, 161, 1);
+    background-size: cover;
+    height: 125px;
+}
+.text-info{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-top: 30px;
+    font-size: 12px;
+}
