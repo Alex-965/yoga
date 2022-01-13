@@ -13,10 +13,11 @@ body {
 
 .main-header {
     color: rgba(139, 126, 172, 1);
-    background-image: url(img/yoga-image.svg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 908px;
+}
+.main-header > img{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
 }
 
 .container {
@@ -486,10 +487,15 @@ label{
     margin-top: 50px;
 }
 footer{
-    background-image: url(/img/footer-yoga.jpg);
-    background-size: cover;
     padding: 70px;
     margin-top: 65px;
+}
+
+footer > img{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    left: 0;
 }
 .main-footer{
     background: rgba(131, 115, 161, 1);
